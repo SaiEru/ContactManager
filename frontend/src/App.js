@@ -8,7 +8,7 @@ function App() {
 
   const fetchContacts = async () => {
     const res = await fetch(
-      "https://contact-manager-backend.onrender.com/api/contacts"
+      "https://contactmanager-backend-m8wo.onrender.com/api/contacts"
     );
     const data = await res.json();
     setContacts(data);

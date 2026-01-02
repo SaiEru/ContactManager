@@ -17,7 +17,7 @@ function ContactForm({ onAdd }) {
     e.preventDefault();
     if (!isValid) return;
 
-    await fetch("https://contact-manager-backend.onrender.com/api/contacts", {
+    await fetch("https://contactmanager-backend-m8wo.onrender.com/api/contacts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)

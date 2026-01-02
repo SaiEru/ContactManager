@@ -1,6 +1,6 @@
 function ContactList({ contacts, onDelete }) {
   const deleteContact = async (id) => {
-    await fetch(`https://contact-manager-backend.onrender.com/api/contacts/${id}`, {
+    await fetch(`https://contactmanager-backend-m8wo.onrender.com/api/contacts/${id}`, {
       method: "DELETE"
     });
     onDelete();
